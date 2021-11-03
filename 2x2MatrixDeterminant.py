@@ -1,0 +1,11 @@
+a=input("11 of matrix")
+b=input("12 of matrix")
+c=input("21 of matrix")
+d=input("22 of matrix")
+a=int(a)
+b=int(b)
+c=int(c)
+d=int(d)
+matrix=([a,b],[c,d])
+det=matrix[0][1]*matrix[1][0]-matrix[1][1]*matrix[0][0]
+print("matrix",matrix,"its determinant",det)
